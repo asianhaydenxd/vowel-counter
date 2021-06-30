@@ -1,0 +1,20 @@
+#container {
+    text-align: center;
+}
+
+#container h1 {
+    font-size: 50px;
+}
+
+#container button {
+    font-size: 30px;
+    margin: 20px;
+    background-color: green;
+    color: white;
+}
+
+#output {
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
