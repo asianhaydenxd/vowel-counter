@@ -4,7 +4,7 @@ function count() {
     let vowelCount = 0;
 
     for (let i = 0; i < input.value.length; i++) {
-        if ('j'.includes(input.value[i])) vowelCount++;
+        if ('aeiou'.includes(input.value[i])) vowelCount++;
     }
 
     output.innerHTML = vowelCount === 1 ? '1 vowel found' : `${vowelCount} vowels found`;
